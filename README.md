@@ -1,15 +1,16 @@
 推荐你通过在线阅读网站进行阅读，体验更好，速度更快！
 
-* **[JavaGuide 在线阅读网站（新版，推荐👍）](https://javaguide.cn/)**
 * [JavaGuide 在线阅读版（老版）](https://snailclimb.gitee.io/javaguide/#/)
 
 <div align="center">
-    <p>
+    <p>学习世界</p>
+    <!-- 广告logo -->
+    <!-- <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
             <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
-    </p>
-    <p>
+    </p> -->
+    <!-- <p>
         <a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
             <img src="https://img-blog.csdnimg.cn/img_convert/1c00413c65d1995993bf2b0daf7b4f03.png#pic_center" width="" />
         </a>
@@ -23,15 +24,7 @@
     <p>
         <a href="https://github.com/Snailclimb/JavaGuide">Github</a> |
         <a href="https://gitee.com/SnailClimb/JavaGuide">Gitee</a>
-    </p>  
-</div>
-
-> 1. **面试专版** ：准备面试的小伙伴可以考虑面试专版：[《Java 面试进阶指北 》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) (质量很高，专为面试打造，配合 JavaGuide 食用)。
-> 1. **知识星球** ：专属面试小册/一对一交流/简历修改/专属求职指南，欢迎加入 [JavaGuide 知识星球](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)（点击链接即可查看星球的详细介绍，一定一定一定确定自己真的需要再加入，一定一定要看完详细介绍之后再加我）。
-> 2. **转载须知** ：以下所有文章如非文首说明为转载皆为我（Guide 哥）的原创，转载在文首注明出处，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！
-
-<div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    </p>   -->
 </div>
 
 
@@ -215,6 +208,8 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8 ](https://docs.oracle
 - [Redis 常见问题总结(下)](./docs/database/redis/redis-questions-02.md)
 
 **重要知识点：**
+
+- [Redis大key问题总结](./docs/databases/redis/redis%E5%A4%A7key%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.md)
 
 - [3种常用的缓存读写策略详解](./docs/database/redis/3-commonly-used-cache-read-and-write-strategies.md)
 - [Redis 5 种基本数据结构详解](./docs/database/redis/redis-data-structures-01.md)
@@ -400,13 +395,8 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8 ](https://docs.oracle
 
 **异地多活** 描述的是将服务部署在异地并且服务同时对外提供服务。和传统的灾备设计的最主要区别在于“多活”，即所有站点都是同时在对外提供服务的。异地多活是为了应对突发状况比如火灾、地震等自然或者人为灾害。
 
-## Star 趋势
-
-![](https://api.star-history.com/svg?repos=Snailclimb/JavaGuide&type=Date)
 
 ## 公众号
 
-如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
-
-![JavaGuide 官方公众号](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png)
+如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号：。
 
