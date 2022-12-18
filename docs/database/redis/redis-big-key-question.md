@@ -1,8 +1,16 @@
 ---
 title: Redis 大Key问题
 category: 数据库
-tag:
-- Redis
+author: sky
+tag: 
+  - Redis
+date: 2022-12-17 20:22:32
+permalink: /database/redis/redis-big-key-question/
+categories: 
+  - database
+  - redis
+tags: 
+  - 数据库
 ---
 # Redis 大Key问题
 在实际场景或面试中，常会遇到Redis 大Key问题导致性能下降。

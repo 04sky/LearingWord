@@ -8,6 +8,12 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "vue-template-compiler": "^2.7.14"
+    "vue-loader": "^17.0.1",
+    "vuepress": "^1.9.7"
+  },
+  "devDependencies": {
+    "vue": "^2.7.14",
+    "vue-template-compiler": "^2.7.14",
+    "vuepress-theme-vdoing": "^1.12.8"
   }
 }
