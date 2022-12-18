@@ -9,7 +9,5 @@
 .cache/
 # Vuepress Temp
 .temp/
-# Vuepress Output
-dist/
 # Build files
 packages/*/lib/
