@@ -329,6 +329,8 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8 ](https://docs.oracle
 
 ### 消息队列
 
+[实现kafka消费者至少消费一次](./high-performance/message-queue/consume-at-once.md)
+
 消息队列在分布式系统中主要是为了解耦和削峰。相关阅读： [消息队列常见问题总结](./high-performance/message-queue/message-queue.md)。
 
 - **RabbitMQ** : [RabbitMQ 基础知识总结](./high-performance/message-queue/rabbitmq-intro.md)、[RabbitMQ 常见面试题](./high-performance/message-queue/rabbitmq-questions.md)
