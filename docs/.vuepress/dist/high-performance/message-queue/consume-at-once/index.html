@@ -8,7 +8,7 @@
     
     <meta name="description" content="专注技术分享，从后端八股到实践">
     
-    <link rel="preload" href="/LearingWord/assets/css/0.styles.8ee1b52f.css" as="style"><link rel="preload" href="/LearingWord/assets/js/app.efcf2af9.js" as="script"><link rel="preload" href="/LearingWord/assets/js/2.7c2ecf2d.js" as="script"><link rel="preload" href="/LearingWord/assets/js/5.550f0b83.js" as="script"><link rel="prefetch" href="/LearingWord/assets/js/10.6249148e.js"><link rel="prefetch" href="/LearingWord/assets/js/11.ab3cdbe9.js"><link rel="prefetch" href="/LearingWord/assets/js/3.6c245a8f.js"><link rel="prefetch" href="/LearingWord/assets/js/4.5237d17a.js"><link rel="prefetch" href="/LearingWord/assets/js/6.1dc61ca0.js"><link rel="prefetch" href="/LearingWord/assets/js/7.31064bcf.js"><link rel="prefetch" href="/LearingWord/assets/js/8.e213dfab.js"><link rel="prefetch" href="/LearingWord/assets/js/9.588eadd0.js">
+    <link rel="preload" href="/LearingWord/assets/css/0.styles.8ee1b52f.css" as="style"><link rel="preload" href="/LearingWord/assets/js/app.385fc0f7.js" as="script"><link rel="preload" href="/LearingWord/assets/js/2.a91a21bc.js" as="script"><link rel="preload" href="/LearingWord/assets/js/6.31f6ea18.js" as="script"><link rel="prefetch" href="/LearingWord/assets/js/10.369fded9.js"><link rel="prefetch" href="/LearingWord/assets/js/11.e542d95b.js"><link rel="prefetch" href="/LearingWord/assets/js/12.453058ae.js"><link rel="prefetch" href="/LearingWord/assets/js/3.6240dd65.js"><link rel="prefetch" href="/LearingWord/assets/js/4.acaee825.js"><link rel="prefetch" href="/LearingWord/assets/js/5.b66c11d1.js"><link rel="prefetch" href="/LearingWord/assets/js/7.d8849348.js"><link rel="prefetch" href="/LearingWord/assets/js/8.f911e6d4.js"><link rel="prefetch" href="/LearingWord/assets/js/9.68efdfcb.js">
     <link rel="stylesheet" href="/LearingWord/assets/css/0.styles.8ee1b52f.css">
   </head>
   <body class="theme-mode-light">
@@ -257,7 +257,9 @@
 </code></pre></div><h3 id="使用seek方法再次消费"><a href="#使用seek方法再次消费" class="header-anchor">#</a> 使用seek方法再次消费</h3> <p>理论上来讲，这种方法是能行的通的。因为seek能将一个活跃分区的消费位移设置到消费失败的位置，然后下一次拉取时可以重新获取该数据，并且相比使用“重试队列”，seek方式还可以保证消息部分顺序。
 但是seek在批量处理下存在<a href="https://github.com/confluentinc/confluent-kafka-python/issues/1443" target="_blank" rel="noopener noreferrer">未知问题<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，后面再研究。</p></div></div> <!----> <div class="page-edit"><!----> <div class="tags"><a href="/LearingWord/tags/?tag=%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97" title="标签">#消息队列</a></div> <!----></div> <div class="page-nav-wapper"><!----> <!----></div></div> <div class="article-list"><div class="article-title"><a href="/LearingWord/archives/" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/LearingWord/home.html"><div>
             项目相关
-            <!----></div></a> <span class="date"></span></dt></dl><dl><dd>02</dd> <dt><a href="/LearingWord/database/redis/redis-big-key-question/"><div>
+            <!----></div></a> <span class="date"></span></dt></dl><dl><dd>02</dd> <dt><a href="/LearingWord/high-performance/message-queue/deploy-kafka-cluster-3-3-1/"><div>
+            单机Docker部署应用Kraft模式的Kafka集群
+            <!----></div></a> <span class="date">01-02</span></dt></dl><dl><dd>03</dd> <dt><a href="/LearingWord/database/redis/redis-big-key-question/"><div>
             Redis 大Key问题
             <!----></div></a> <span class="date">12-17</span></dt></dl> <dl><dd></dd> <dt><a href="/LearingWord/archives/" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><div class="icons"><a href="mailto:673052752@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://blog.csdn.net/qq_39410381?type=blog" title="csdn" target="_blank" class="iconfont icon-csdn"></a><a href="https://github.com/04sky" title="github" target="_blank" class="iconfont icon-github"></a><a href="https://gitee.com/sikailin" title="gitee" target="_blank" class="iconfont icon-gitee"></a></div> 
   Theme by
@@ -270,6 +272,6 @@
         </li><li class="iconfont icon-yuedu">
           阅读模式
         </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
-    <script src="/LearingWord/assets/js/app.efcf2af9.js" defer></script><script src="/LearingWord/assets/js/2.7c2ecf2d.js" defer></script><script src="/LearingWord/assets/js/5.550f0b83.js" defer></script>
+    <script src="/LearingWord/assets/js/app.385fc0f7.js" defer></script><script src="/LearingWord/assets/js/2.a91a21bc.js" defer></script><script src="/LearingWord/assets/js/6.31f6ea18.js" defer></script>
   </body>
 </html>
